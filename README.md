@@ -25,8 +25,8 @@ Recognizing these challenges, the ability to accurately detect deepfakes has bec
 Clone this repository and install the required Python packages:
 
 ```bash
-git clone https://github.com/ZainabAldhanhani/LungCancerClassificationA701.git
-cd LungCancerClassificationA701
+git clone (https://github.com/ZainabAldhanhani/Enhancing-Deepfake-Detection.git)
+cd Enhancing-Deepfake-Detection
 pip install -r requirements.txt
 ```
 ## Dataset
