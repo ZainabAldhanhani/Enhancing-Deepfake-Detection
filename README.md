@@ -27,3 +27,13 @@ Clone this repository and install the required Python packages:
 ```bash
 git clone https://github.com/ZainabAldhanhani/LungCancerClassificationA701.git
 cd LungCancerClassificationA70
+```
+## Dataset
+
+This project uses the **AI vs Human Generated Dataset** provided by Shutterstock and DeepMedia via Kaggle.
+
+The dataset consists of paired authentic and AI-generated images, with each real image matched to a synthetic version created using advanced generative models. It includes a balanced mix of content types, including images featuring people, to support robust and diverse model training. The data is divided into `train` and `test` folders, with labels provided only for the training set.
+
+You can download the dataset directly from Kaggle:  
+ [https://www.kaggle.com/datasets/alessandrasala79/ai-vs-human-generated-dataset](https://www.kaggle.com/datasets/alessandrasala79/ai-vs-human-generated-dataset)
+
