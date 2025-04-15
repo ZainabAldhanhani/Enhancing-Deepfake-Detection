@@ -1,2 +1,29 @@
 # Enhancing-Deepfake-Detection
-Enhancing Deepfake Detection: A Paired Authentic and Al-Generated Image Approach
+This repository presents our research on deepfake detection using paired real and AI-generated images, combining deep learning and contrastive learning techniques. The project investigates the performance of convolutional neural networks (CNNs)—including VGG16, ResNet50, and ConvNeXt—trained on a curated dataset that links each authentic image with its synthetic counterpart. To enhance model robustness and generalization, we introduce a pairwise learning strategy based on contrastive loss, enabling the networks to better distinguish subtle differences between real and fake content. This work contributes to the development of more accurate and scalable detection systems to combat misinformation and preserve trust in digital media.
+
+## Background
+Generative Artificial Intelligence has dramatically transformed the landscape of digital media by enabling the creation of highly realistic images, videos, and audio. While these innovations offer exciting possibilities, they also give rise to significant challenges, particularly with the spread of deepfakes—synthetic media designed to closely imitate authentic content. Deepfakes pose serious risks, including the spread of misinformation, diminished public trust in media, and critical security and ethical concerns.
+
+Recognizing these challenges, the ability to accurately detect deepfakes has become increasingly vital. This project is motivated by the urgent demand for more dependable and effective detection systems capable of distinguishing authentic media from AI-generated forgeries. Our approach centers on improving deepfake detection by utilizing a curated dataset that pairs genuine images with their synthetic counterparts. By focusing on both authenticity and forgery detection, we aim to advance the robustness and precision of deepfake identification technologies, contributing to the broader goal of preserving the credibility of digital information
+
+## Architecture
+![Diagram](Figures/Diagram.png "Diagram")
+
+## Repository Structure
+
+- `Classification/`: Classification Random Forest model and SVM Model
+- `Dataset/`: This folder contains image examples for training dataset and testing dataset
+- `Main Code/`: Main Code including all parts (Train and evaluate all models,Test the models on the test set,Visualization, and Classification )
+- `Test the models on the test set/`: Test the models on the test set and save the best model
+- `Train and evaluate all models`: Train and evaluate all models, get the best model and its name
+- `Visualization/`: View dataset samples
+- `README.md`: Overview and setup instructions.
+- `requirements.txt`: Required libraries for the project.
+
+
+## Install Requirements
+Clone this repository and install the required Python packages:
+
+```bash
+git clone https://github.com/ZainabAldhanhani/LungCancerClassificationA701.git
+cd LungCancerClassificationA70
