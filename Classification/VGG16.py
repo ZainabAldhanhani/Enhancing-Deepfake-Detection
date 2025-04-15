@@ -206,7 +206,7 @@ def main(dataset_path):
 
 if __name__ == "__main__":
     # Set up argument parser
-    parser = argparse.ArgumentParser(description="Classification Using ConNext.")
+    parser = argparse.ArgumentParser(description="Classification Using VGG16.")
     
     # Define parameters
     parser.add_argument("--dataset_path", type=str, required=True, help="Put your  dataset path")
