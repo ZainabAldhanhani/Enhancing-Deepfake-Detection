@@ -37,3 +37,12 @@ The dataset consists of paired authentic and AI-generated images, with each real
 You can download the dataset directly from Kaggle:  
  [https://www.kaggle.com/datasets/alessandrasala79/ai-vs-human-generated-dataset](https://www.kaggle.com/datasets/alessandrasala79/ai-vs-human-generated-dataset)
 
+
+To explore and verify the dataset structure, we provide a helper script: `preview_dataset.py`. This script offers a quick overview of the dataset and ensures everything is properly organized after downloading it from Kaggle.
+
+Make sure `train.csv` and the `train_data/` folder are in the same directory. Then run:
+
+```bash
+python preview_dataset.py /path/to/your_dataset/train
+```
+
