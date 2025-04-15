@@ -1,4 +1,4 @@
-# Enhancing-Deepfake-Detection
+# Enhancing Deepfake Detection: A Paired Authentic and Al-Generated Image
 This repository presents our research on deepfake detection using paired real and AI-generated images, combining deep learning and contrastive learning techniques. The project investigates the performance of convolutional neural networks (CNNs)—including VGG16, ResNet50, and ConvNeXt—trained on a curated dataset that links each authentic image with its synthetic counterpart. To enhance model robustness and generalization, we introduce a pairwise learning strategy based on contrastive loss, enabling the networks to better distinguish subtle differences between real and fake content. This work contributes to the development of more accurate and scalable detection systems to combat misinformation and preserve trust in digital media.
 
 ## Background
