@@ -7,7 +7,7 @@ Generative Artificial Intelligence has dramatically transformed the landscape of
 Recognizing these challenges, the ability to accurately detect deepfakes has become increasingly vital. This project is motivated by the urgent demand for more dependable and effective detection systems capable of distinguishing authentic media from AI-generated forgeries. Our approach centers on improving deepfake detection by utilizing a curated dataset that pairs genuine images with their synthetic counterparts. By focusing on both authenticity and forgery detection, we aim to advance the robustness and precision of deepfake identification technologies, contributing to the broader goal of preserving the credibility of digital information
 
 ## Architecture
-![Diagram](Figures/Diagram.png "Diagram")
+![Diagram](Figures/Architecture.png "Diagram")
 
 ## Repository Structure
 
