@@ -11,11 +11,8 @@ Recognizing these challenges, the ability to accurately detect deepfakes has bec
 
 ## Repository Structure
 
-- `Classification/`: Classification Random Forest model and SVM Model
-- `Dataset/`: This folder contains image examples for training dataset and testing dataset
-- `Main Code/`: Main Code including all parts (Train and evaluate all models,Test the models on the test set,Visualization, and Classification )
-- `Test the models on the test set/`: Test the models on the test set and save the best model
-- `Train and evaluate all models`: Train and evaluate all models, get the best model and its name
+- `Classification/`: Classification VGG16, ResNet50, and ConvNeXt
+- `Pairwise-learning/`: Classification with Pairwise-learning for VGG16, ResNet50, and ConvNeXt
 - `Visualization/`: View dataset samples
 - `README.md`: Overview and setup instructions.
 - `requirements.txt`: Required libraries for the project.
