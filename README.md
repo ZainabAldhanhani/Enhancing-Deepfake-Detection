@@ -45,29 +45,32 @@ python preview_dataset.py /path/to/your_dataset/train
 ```
 
 ## Classification (Without Pairwise learning)
-For VGG16: 
+To train and evaluate a model, use the following commands:
+
+#### For VGG16: 
 ```bashn
 python python Classification/VGG16.py --dataset_path Path
 ```
-For ResNet50: 
+#### For ResNet50: 
 ```bash
 python python Classification/ResNet50.py --dataset_path Path
 ```
-for ConvNeXt:
+#### for ConvNeXt:
 ```bashn
 python python Classification/ConvNext.py --dataset_path Path
 ```
 
 ## Classification (With Pairwise learning)
-For VGG16: 
+To train and evaluate a model, use the following commands:
+#### For VGG16: 
 ```bashn
 python python Pairwise-learning/VGG16.py --dataset_path Path
 ```
-For ResNet50: 
+#### For ResNet50: 
 ```bash
 python python Pairwise-learning/ResNet50.py --dataset_path Path
 ```
-for ConvNeXt:
+#### for ConvNeXt:
 ```bashn
 python python Pairwise-learning/ConvNext.py --dataset_path Path
 ```
